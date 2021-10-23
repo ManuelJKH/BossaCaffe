@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html> 
+ <head>
+   <meta charset="utf-8">
+   <title>Calcular tu peso en otro planeta</title>
+   <style type="text/css">
+     body {
+          background="img/marcianito.png";
+          background-repeat: no-repeat;
+
+          
+
+    </style>
+
+    </head>
+     <body background="img/marcianito.png">
+
+
+
+
+     <font color="White"  face="Comic Sans MS,arial"  size=8 -webkit-text-stroke="2px black">
+
+
+     <center>
+     <h1>
+     Calcular tu peso en otro planeta
+	 </h1>
+   <h2>  
+   Para calcular tu peso en otro planeta usa la formula P = (M*G)/9.8
+   </h2>
+   <p>
+   Donde;
+   P= peso<br>
+   M= Masa<br>
+   G= grabedad del planeta deseado<br>
+   9.8= a la gravedad de la tierra<br>
+   </p>
+
+
+      <form>
+
+    	<label>Ingresa tu Masa</label><br>
+    	<label2>Masa:</label>   
+        <input type="texto" id="Ms">   <br>  
+        <label3>Selecciona un planeta</label><br>
+  
+        <input onclick="MercurioF()" type="button" value="Mercurio" name="Mercurio">
+        <input onclick="VenusF()" type="button" value="Venus" name="Venus">
+        <input onclick="MarteF()" type="button" value="Marte" name="Marte">
+        <input onclick="JupiterF()" type="button" value="Jupiter" name="Jupiter">
+        <input onclick="SaturnoF()" type="button" value="Saturno" name="Saturno">
+        <input onclick="UranoF()" type="button" value="Urano" name="Urano">
+        <input onclick="NeptunoF()" type="button" value="Neptuno" name="Neptuno">
+        
+        
+<br>
+
+
+    
+        <label4>Grabedad del planeta deceado:</label>   
+<input type="texto" id="GPlnt">   <br>
+        <label5>Tu peso es:</label> <input type="texto" id="Pso"><label5v2>Kg</label5v2> <br>
+<input onclick="Formula()" type="button" value="Obtener peso" name="btnObt">
+<input onclick="Nuevo()" type="button" value="Nuevo" name="btnNuevo">
+
+
+
+<script src="FormulaV4.js"></script>
+
+
+     </center>
+     </font>
+   
+     </body>
+ 
+</html>
